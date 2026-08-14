@@ -1,0 +1,24 @@
+THERE ARE USUALLY SITUATIONS WHERE DECISION TREES AND RANDOM FORESTS ARE USED AS COMPARED TO LOGISTIC REGRESSION
+
+
+Decision Tree
+
+Captures non-linear relationships and threshold-based rules (e.g., "if age > 30 and income > $50k") without manual feature engineering.
+Automatically detects interactions between variables by splitting on combinations.
+Handles mixed data types, missing values, and outliers with minimal preprocessing.
+Produces a visual, flowchart-style output that's easy to explain to non-technical people.
+
+Random Forest
+
+Improves on a single tree's accuracy and stability by averaging many trees, reducing overfitting and variance.
+Scales well to large datasets with many features, capturing complex nonlinear patterns automatically.
+Best when prediction accuracy is the priority over interpretability.
+Commonly used for messy, real-world problems like fraud detection, churn, or risk scoring.
+
+Logistic Regression
+
+Best when you need to quantify each variable's exact contribution (e.g., odds ratios, coefficients).
+Works well on small datasets with a roughly linear relationship, with low risk of overfitting.
+Fast to train, easy to update, and computationally cheap.
+Preferred in regulated fields (finance, healthcare) requiring transparency, auditability, and well-calibrated probabilities.
+
